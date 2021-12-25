@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(to right top, #000000, #291e24, #4a3748, #665473, #7b75a3, #7180b1, #628bbd, #5096c5, #2f87a8, #18778a, #12666c, #175551);
+    
+    flex-direction: column;
+}
+
+.title{
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left:2rem;
+    font-size:2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FAF8FF;
+    
+}
+
+form{
+    border-radius: 22px;
+    text-align: center;
+    background: #8685EF;
+    padding-bottom: 10px;
+       
+    
+    border: 1px solid #FAF8FF;
+    border: 1px solid #8685EF;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+
+input{
+    color: #FAF8FF;
+    padding: 10px;
+   
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border: 1px solid #FAF8FF;
+    border-radius: 25%;
+}
+
+.num{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+}
+
+.text{
+    width: 65%;
+    height: 65px;
+
+    border-radius: 22px;
+
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1{
+    width: 64px;
+    height: 64px;
+    border-radius: 25%;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    box-shadow: 1px 1px 10px #ccc;
+    transition: ease-in 0.2s;
+
+    
+}
+
+.text1:hover{
+    opacity: 0.5;
+    
+}
+
+.maincolor{
+  background: transparent;  
+}
+
+input.text{
+    
+    
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+.plus{
+    background: #0bafac;
+    
+}
+
+.min{
+    background:#cf1596;
+}
+
+.mult{
+    background: #6A9A8B;
+}
+
+.igual{
+    background: #8c52ff;
+}
+
+.share{
+    background: #FF00FF;
+}
